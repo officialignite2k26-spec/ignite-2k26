@@ -48,7 +48,7 @@ const eventDetails = {
 
       <h4>Rules</h4>
       <ul>
-        <li>Theme will be provided on the spot.</li>
+        <li>Problem Statement will be provided on the spot.</li>
         <li>Teams must develop a working prototype.</li>
         <li>Presentation is mandatory.</li>
       </ul>
