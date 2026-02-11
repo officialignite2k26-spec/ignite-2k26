@@ -35,12 +35,6 @@ const eventDetails = {
         <li>Exceeding the time limit may lead to point deductions.</li>
       </ul>
 
-      <h4>Judging Criteria</h4>
-      <ul>
-        <li>Creativity & Concept – 40%</li>
-        <li>Communication & Clarity – 30%</li>
-        <li>Class Representation – 30%</li>
-      </ul>
     `
   },
 
@@ -65,13 +59,6 @@ const eventDetails = {
         <li>Internet usage limited to what organizers permit.</li>
       </ul>
 
-      <h4>Judging Criteria</h4>
-      <ul>
-        <li>Innovation – 30%</li>
-        <li>Technical Implementation – 30%</li>
-        <li>Theme Relevance – 20%</li>
-        <li>Presentation & Demo – 20%</li>
-      </ul>
     `
   },
 
@@ -94,12 +81,6 @@ const eventDetails = {
         <li>Copy-paste prohibited.</li>
       </ul>
 
-      <h4>Judging Criteria</h4>
-      <ul>
-        <li>Logic – 40%</li>
-        <li>Output Accuracy – 40%</li>
-        <li>Code Structure – 20%</li>
-      </ul>
     `
   },
 
@@ -123,12 +104,6 @@ const eventDetails = {
         <li>Mobile phones and external help prohibited.</li>
       </ul>
 
-      <h4>Judging Criteria</h4>
-      <ul>
-        <li>Clues Completed – 50%</li>
-        <li>Accuracy – 30%</li>
-        <li>Time Taken – 20%</li>
-      </ul>
     `
   },
 
@@ -152,12 +127,6 @@ const eventDetails = {
         <li>Unnecessary logic change not allowed.</li>
       </ul>
 
-      <h4>Judging Criteria</h4>
-      <ul>
-        <li>Errors Corrected – 60%</li>
-        <li>Code Logic & Accuracy – 30%</li>
-        <li>Time Taken – 10%</li>
-      </ul>
     `
   },
 
@@ -175,12 +144,6 @@ const eventDetails = {
         <li>Allowed weapons: M416 / AK47 only.</li>
       </ul>
 
-      <h4>Restrictions</h4>
-      <ul>
-        <li>No melee weapons.</li>
-        <li>No sliding.</li>
-        <li>No other guns allowed.</li>
-      </ul>
     `
   },
 
@@ -202,10 +165,6 @@ const eventDetails = {
         <li>Any modification is prohibited.</li>
       </ul>
 
-      <h4>Judging Criteria</h4>
-      <ul>
-        <li>Lowest Completion Time – 100%</li>
-      </ul>
     `
   },
 
@@ -228,13 +187,6 @@ const eventDetails = {
         <li>No AI-generated images or AI tools.</li>
       </ul>
 
-      <h4>Judging Criteria</h4>
-      <ul>
-        <li>Creativity & Design – 40%</li>
-        <li>Theme Relevance – 30%</li>
-        <li>Layout & Clarity – 20%</li>
-        <li>Overall Presentation – 10%</li>
-      </ul>
     `
   },
 
@@ -260,13 +212,6 @@ const eventDetails = {
         <li>Pre-created or reused content prohibited.</li>
       </ul>
 
-      <h4>Judging Criteria</h4>
-      <ul>
-        <li>Creativity & Concept – 30%</li>
-        <li>Relevance to Theme – 25%</li>
-        <li>Video Quality & Editing – 25%</li>
-        <li>Overall Impact – 20%</li>
-      </ul>
     `
   },
 
@@ -288,13 +233,6 @@ const eventDetails = {
         <li>Dangerous props not allowed.</li>
       </ul>
 
-      <h4>Judging Criteria</h4>
-      <ul>
-        <li>Costume & Concept</li>
-        <li>Theme Relevance</li>
-        <li>Confidence & Walk</li>
-        <li>Entry & Exit</li>
-      </ul>
     `
   },
 
@@ -325,13 +263,6 @@ const eventDetails = {
           also but it will count as a 1 team..</li>
       </ul>   
       
-      <h4>Judging Criteria</h4>
-      <ul>
-        <li>Theme Representation – 30%</li>
-        <li>Choreography – 30%</li>
-        <li>Energy & Synchronization – 20%</li>
-        <li>Overall Impact – 20%</li>
-      </ul>
     `
   },
 
@@ -353,12 +284,6 @@ const eventDetails = {
         <li>Plagiarized memes disqualified.</li>
       </ul>
 
-      <h4>Judging Criteria</h4>
-      <ul>
-        <li>Creativity & Humor – 40%</li>
-        <li>Theme Relevance – 40%</li>
-        <li>Originality – 20%</li>
-      </ul>
     `
   },
 
@@ -383,12 +308,6 @@ const eventDetails = {
         <li>Pre-recorded videos not allowed.</li>
       </ul>
 
-      <h4>Judging Criteria</h4>
-      <ul>
-        <li>Creativity & Flow – 40%</li>
-        <li>Video Quality & Editing – 30%</li>
-        <li>Event Coverage – 30%</li>
-      </ul>
     `
   },
 
@@ -411,11 +330,6 @@ const eventDetails = {
         <li>Cube modification prohibited.</li>
       </ul>
 
-      <h4>Judging Criteria</h4>
-      <ul>
-        <li>Speed – 70%</li>
-        <li>Correct Completion – 30%</li>
-      </ul>
     `
   },
 
@@ -452,11 +366,6 @@ const eventDetails = {
         response speed.</li>
     </ul>
 
-    <h4>Judging Criteria</h4>
-    <ul>
-      <li>Accuracy – 60%</li>
-      <li>Speed of Response – 40%</li>
-    </ul>
   `
 },
   valedictory: {
