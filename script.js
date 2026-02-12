@@ -345,6 +345,12 @@ const eventDetails = {
     <p><strong>Venue:</strong> Hall</p>
     <p><strong>Time:</strong> 10:30 AM – 11:30 AM</p>
 
+     <h4>Note</h4>
+    <ul>
+      <li>The Registration for Quiz will start from 15th February 2026 at 10:00 AM.</li>
+    </ul>
+
+
     <h4>Rules</h4>
     <ul>
       <li>Conducted using Kahoot.</li>
