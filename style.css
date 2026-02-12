@@ -118,6 +118,14 @@ body{
     0 0 14px rgba(0,245,255,0.6),
     0 0 30px rgba(123,92,255,0.3);
 }
+#button-glow {
+ background: linear-gradient(135deg, #00f5ff, #2376c9, #7b5cff);
+  color: #000;
+  box-shadow:
+    0 0 14px rgba(2, 247, 255, 0.6),
+    0 0 30px rgba(47, 41, 71, 0.3);
+}
+
 
 .btn.glow:active {
   transform: scale(0.95);
@@ -519,6 +527,9 @@ footer {
   text-align: left;
   padding-left: 12px;
 }
+/* ===========================
+   SUBMISSIONS
+=========================== */
 .submissions {
   padding-top: 70px;
 }
@@ -534,6 +545,7 @@ footer {
   text-align: center;
 }
 
+/* image container */
 .submission-img {
   position: relative;
   overflow: hidden;
@@ -543,14 +555,16 @@ footer {
   box-shadow: 0 0 18px rgba(0,245,255,0.18);
 }
 
+/* image */
 .submission-img img {
   width: 100%;
-  height: 160px;   /* 👈 perfect desktop size */
+  height: 160px;
   object-fit: cover;
   display: block;
-  transition: 0.35s ease;
+  transition: transform 0.35s ease;
 }
 
+/* overlay */
 .submission-overlay {
   position: absolute;
   inset: 0;
@@ -560,9 +574,10 @@ footer {
   justify-content: center;
   padding-bottom: 14px;
   opacity: 0;
-  transition: 0.3s ease;
+  transition: opacity 0.3s ease;
 }
 
+/* hover effects */
 .submission-img:hover img {
   transform: scale(1.08);
 }
@@ -571,22 +586,25 @@ footer {
   opacity: 1;
 }
 
+/* title */
 .submission-card h3 {
   margin-top: 10px;
   font-size: 0.95rem;
 }
 
+/* subtitle */
 .submission-card p {
   font-size: 0.75rem;
   opacity: 0.85;
 }
 
-/* Mobile */
+/* mobile */
 @media (max-width: 600px) {
   .submission-img img {
-    height: 130px; /* 👈 perfect mobile size */
+    height: 130px;
   }
 }
+
 .logo {
   font-family: 'Orbitron', sans-serif;
   font-weight: 800;
