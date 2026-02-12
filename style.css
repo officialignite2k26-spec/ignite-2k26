@@ -119,7 +119,7 @@ body{
     0 0 30px rgba(123,92,255,0.3);
 }
 #button-glow {
- background: linear-gradient(135deg, #00f5ff, #2376c9, #7b5cff);
+ background: linear-gradient(135deg, #00f5ff, #5a26b2, #7b5cff);
   color: #000;
   box-shadow:
     0 0 14px rgba(2, 247, 255, 0.6),
