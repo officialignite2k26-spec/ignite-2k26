@@ -501,3 +501,47 @@ document.querySelectorAll('a[href^="#"]').forEach(link => {
     }
   });
 });
+
+// Countdown Timer (IGNITE Day 1)
+(function () {
+  const daysEl = document.getElementById("cdDays");
+  const hoursEl = document.getElementById("cdHours");
+  const minsEl = document.getElementById("cdMins");
+  const secsEl = document.getElementById("cdSecs");
+
+  if (!daysEl || !hoursEl || !minsEl || !secsEl) return;
+
+  // Set your event date/time (Goa/India time)
+  const target = new Date("2026-02-25T09:00:00+05:30").getTime();
+
+  const pad = (n) => String(n).padStart(2, "0");
+
+  function tick() {
+    const now = Date.now();
+    let diff = target - now;
+
+    if (diff <= 0) {
+      daysEl.textContent = "00";
+      hoursEl.textContent = "00";
+      minsEl.textContent = "00";
+      secsEl.textContent = "00";
+      return;
+    }
+
+    const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+    diff %= (1000 * 60 * 60 * 24);
+    const hours = Math.floor(diff / (1000 * 60 * 60));
+    diff %= (1000 * 60 * 60);
+    const mins = Math.floor(diff / (1000 * 60));
+    diff %= (1000 * 60);
+    const secs = Math.floor(diff / 1000);
+
+    daysEl.textContent = pad(days);
+    hoursEl.textContent = pad(hours);
+    minsEl.textContent = pad(mins);
+    secsEl.textContent = pad(secs);
+  }
+
+  tick();
+  setInterval(tick, 1000);
+})();

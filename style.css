@@ -676,3 +676,60 @@ body::after{
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='140' height='140' filter='url(%23n)' opacity='.35'/%3E%3C/svg%3E");
   background-size: 220px 220px;
 }
+.countdown{
+  margin: 18px auto 6px;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.cd-box{
+  min-width: 74px;
+  padding: 10px 12px;
+  border-radius: 14px;
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(0,245,255,0.25);
+  box-shadow: 0 0 18px rgba(0,245,255,0.12);
+  backdrop-filter: blur(10px);
+  text-align: center;
+}
+
+.cd-box span{
+  display: block;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1.25rem;
+  color: var(--neon);
+  text-shadow: 0 0 10px rgba(0,245,255,0.6);
+  line-height: 1.1;
+}
+
+.cd-box small{
+  display: block;
+  margin-top: 4px;
+  font-size: 0.72rem;
+  color: rgba(236,249,255,0.75);
+}
+
+@media (max-width: 600px){
+  .cd-box{ min-width: 70px; }
+}
+@media (max-width: 600px){
+  .countdown{
+    gap: 8px;
+  }
+
+  .cd-box{
+    min-width: 58px;
+    padding: 8px 6px;
+    border-radius: 10px;
+  }
+
+  .cd-box span{
+    font-size: 1rem;   /* number size small */
+  }
+
+  .cd-box small{
+    font-size: 0.6rem; /* label small */
+  }
+}
