@@ -749,7 +749,10 @@ body::after{
   width: 120px;
   max-width: 40%;
   height: auto;
-  filter: drop-shadow(0 0 10px rgba(0,245,255,0.5));
+  border-radius: 16px;   /* 👈 curve amount */
+  padding: 6px;
+  background: rgba(255,255,255,0.05);
+  box-shadow: 0 0 15px rgba(0,245,255,0.4);
 }
 @media (max-width: 600px) {
   .sponsor-logo img {
