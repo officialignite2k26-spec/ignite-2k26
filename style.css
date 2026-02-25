@@ -733,3 +733,26 @@ body::after{
     font-size: 0.6rem; /* label small */
   }
 }
+.powered-by {
+  margin-top: 10px;
+  font-size: 0.8rem;
+  letter-spacing: 2px;
+  color: #00f5ff;
+  opacity: 0.8;
+}
+
+.sponsor-logo {
+  margin-top: 10px;
+}
+
+.sponsor-logo img {
+  width: 120px;
+  max-width: 40%;
+  height: auto;
+  filter: drop-shadow(0 0 10px rgba(0,245,255,0.5));
+}
+@media (max-width: 600px) {
+  .sponsor-logo img {
+    width: 90px;
+  }
+}
